@@ -11,3 +11,21 @@ class Ferrari488GTB:
 
     def detalhes(self):
         return f"Detalhes da {self.nome}:\nMotor: {self.motor}\nPotência: {self.potencia_hp} hp\nTorque: {self.torque_nm} Nm\nCor: {self.cor}"
+
+        class Porsche911_992 {
+    constructor(modelo = "Carrera S") {
+        this.nome = "Porsche 911 (992)";
+        this.modelo = modelo;
+        this.motor = "Flat-six biturbo";
+        this.potencia_hp = 450; // Para o Carrera S
+        this.torque_nm = 530;
+    }
+
+    ligar() {
+        return `O ${this.nome} ${this.modelo} ligou o motor ${this.motor}.`;
+    }
+
+    especificacoes() {
+        return `Especificações do ${this.nome} ${this.modelo}:\nMotor: ${this.motor}\nPotência: ${this.potencia_hp} hp\nTorque: ${this.torque_nm} Nm`;
+    }
+}
